@@ -7,6 +7,9 @@ import { toast } from "react-hot-toast";
 import { AvatarGenerator } from "random-avatar-generator";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import 'dotenv/config'
+
+
 
 function page() {
   const [name, setName] = useState("");
@@ -83,7 +86,10 @@ function page() {
     }
     setLoading(false);
   };
-  console.log(avatarUrl);
+
+  // dotenv.config({ path: './api.env' });
+  console.log(process.env.NEXT_PRIVATE_AUTH_DOMAIN);
+  // console.log(NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN);
   return (
     <>
       <h1 className="flex justify-center items-center font-semibold  w-full mt-10 text-center p-5 text-4xl">
