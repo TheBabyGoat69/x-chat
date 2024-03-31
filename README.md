@@ -12,5 +12,5 @@ few features of the app are:
 8. users can send photos.
 Due to the short time, we were faced with some few bugs e.g the fuctionality of sending photos stopped working in production, which we didn't have enough time to fix but we hope to fix such bugs and redeploy
 it was created with next.js/react(for the user interface) and firebase for the backend(database,authenticaton etc)
-created by Philip Elias and Asak erhumuose as a team project
+created by Philip Elias and Asak Erhumuose as a team project
 
